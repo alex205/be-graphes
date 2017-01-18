@@ -40,7 +40,7 @@ public class Pcc extends Algo {
     	System.out.println("Numero du sommet d'origine ? ");
     	this.origine = graphe.sommetClick();
     	System.out.println("Origine long " + graphe.getSommetI(this.origine).getLongitude() + " lat " + graphe.getSommetI(this.origine).getLatitude());
-    	this.origine = readarg.lireInt ("Numero du sommet d'origine ? ") ;
+    	//this.origine = readarg.lireInt ("Numero du sommet d'origine ? ") ;
     	if(this.origine < 0 || this.origine > graphe.getSize())
     		throw new SommetInvalide("Sommet inexistant");
 
@@ -49,7 +49,7 @@ public class Pcc extends Algo {
 		System.out.println("Numero du sommet destination ? ");
     	this.destination = graphe.sommetClick();
     	System.out.println("Destination long " + graphe.getSommetI(this.destination).getLongitude() + " lat " + graphe.getSommetI(this.destination).getLatitude());
-		this.destination = readarg.lireInt ("Numero du sommet destination ? ");
+		//this.destination = readarg.lireInt ("Numero du sommet destination ? ");
     	if(this.origine < 0 || this.origine > graphe.getSize())
     		throw new SommetInvalide("Sommet inexistant");
     }

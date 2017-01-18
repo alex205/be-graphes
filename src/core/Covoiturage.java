@@ -150,8 +150,8 @@ public class Covoiturage extends Algo{
 			court.reverse();
 			
 			//dessin du chemin
-			//d.setColor(new Color(255*(this.vitesse1/130),255-255*(this.vitesse1/130),0));
-			//d.setColor(Color.red);
+			d.setColor(new Color(255*(this.vitesse1/130),255-255*(this.vitesse1/130),0));
+			d.setColor(Color.red);
 			d.setWidth(3);
 			court.dessinerChemin(d);
 		}
@@ -168,8 +168,8 @@ public class Covoiturage extends Algo{
 			
 			//dessin du chemin
 			d.setWidth(3);
-			//d.setColor(new Color(255*(this.vitesse2/130),255-255*(this.vitesse2/130),0));
-			//d.setColor(Color.green);
+			d.setColor(new Color(255*(this.vitesse2/130),255-255*(this.vitesse2/130),0));
+			d.setColor(Color.green);
 			court.dessinerChemin(d);
 		}
 		
