@@ -17,6 +17,9 @@ This software include a feature which compute the best meeting point for carpool
 ## Download the maps
 Maps are available here : http://etud.insa-toulouse.fr/~girardi/graphes/maps/
 
+## Performance test
+Performance test is available here (in French) : http://etud.insa-toulouse.fr/~girardi/docs/rapport_tests_graphe.pdf
+
 ## Screenshots
 Pathfinding :
 ![Pathfinding](http://etud.insa-toulouse.fr/~girardi/images/trajet.png)
