@@ -3,7 +3,7 @@ Dijkstra and A* algorithms on various maps for shortest path finding (distance/t
 
 *By Guilhem Cichocki and Alexis Girardi (base code come from Didier Le Botlan)*
 
-## Running the program
+## Run the program
 Compile and then run `java bin/core/Launch.class` to start the program. Type the map name that you want to load (eg: france, insa, midip). The interactive menu will guide you in several choices. 
 
 ### Pathfinding
